@@ -1,0 +1,3 @@
+```shell
+npx quartz sync
+```
