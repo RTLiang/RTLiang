@@ -5,4 +5,4 @@ Welcome to my blog where I share my thought, views and other stuff. I speak Engl
 
 If you are new here, check out these posts:
 
-[Hello World!](Hello%20World!.md)
+[Hello World](Hello%20World.md)
