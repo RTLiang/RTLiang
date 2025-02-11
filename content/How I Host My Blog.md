@@ -1,6 +1,6 @@
 ---
 title: How I Host My Blog
-draft: true
+draft: false
 tags:
 ---
 this is a simple collection of resources that I use for hosting the blog
