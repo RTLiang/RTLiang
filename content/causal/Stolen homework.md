@@ -32,7 +32,7 @@ I discovered something strange in my google drive, an apk file was in the root f
 There was only one way to upload a file and share to a person at the same time: Gmail. The maximum file size of attachment of email is 25MB, the apk file was over 40MB, thus, Gmail uploaded into my drive and sent a attachment link instead[^1]. Turned out, yes. He was smart, he deleted the email but not permanently, leaving it in my trash bin. I recovered it.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/d639adb2d801592df94e02a1bc1ecd72081.png)
 
-More evidence were shown as I investigated, browser history, after sending the email, he searched his email in the search bar to find that email, and deleted. The traffic log also showed he used Gmail at that time.
+More evidence were shown as I investigated, browser history, for example, after sending the email, he searched his email in the search bar to find that email, and deleted. The traffic log also showed he used Gmail at that time.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/6e5834387f7a5399b4143924595a3562462.png)
 
 
