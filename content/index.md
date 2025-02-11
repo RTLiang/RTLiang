@@ -1,7 +1,7 @@
 ---
 title: Hello! Ni Hao! Bonjour! ¡Hola! Salam! Hej! Ciao!
 ---
-Welcome to my blog where I share my thought, views and other stuff. I speak English(C1) and Chinese(native), and I post here mainly in English, feel free to contact me via email [liangrtsmail@gmail.com](mailto:liangrtsmail@gmail.com)
+Welcome to my blog where I share my thought, views and other stuff. I speak English(C1) and Chinese(native), and I post here mainly in English, feel free to contact me via email [liangrtsmail@gmail.com](mailto:liangrtsmail@gmail.com).
 
 
 If you are new here, check out these posts:
@@ -11,6 +11,7 @@ If you are new here, check out these posts:
 
 ***
 You can also find me here:
+
 [Github](https://github.com/RTLiang)
 
 [Reddit](https://www.reddit.com/user/rtliang/)
