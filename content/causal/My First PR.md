@@ -11,4 +11,4 @@ The Project is called [Windrecorder](https://github.com/yuka-friends/Windrecorde
 
 
 [^1]: [add cpu thread control to avoid #206 by RTLiang · Pull Request #264 · yuka-friends/Windrecorder](https://github.com/yuka-friends/Windrecorder/pull/264)
-[^2]: [Stolen homework](Stolen%20homework.md)
+[^2]: [Stolen Homework](Stolen%20Homework.md)
