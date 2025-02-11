@@ -1,6 +1,5 @@
 ---
-title: Hello There! 👋
+title: Hello! Bounjor! Hola! Salam! Hej! Ciao!
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Welcome to my blog where I share my thought, views and other stuff.
+If you are new here, checkout these posts
