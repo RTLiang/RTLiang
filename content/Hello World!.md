@@ -11,6 +11,7 @@ Back to the article, probably nobody reads my blog, but I insist start writing i
 
 >Blogging forces clarity. It makes you structure your thoughts, sharpen your perspective. You stop writing fluff because — let’s be honest — you’re writing for yourself. And if you can’t keep yourself interested, nobody else stands a chance.
 
-https://youtu.be/5ieOxxXcl8U?list=LL&t=1734
+And a video also inspired me to do so [(Chinese) 人工智能与人类终局](https://youtu.be/5ieOxxXcl8U?t=1604). In short, what I need to do is to keep lowering the entropy of the tiny system, fighting with the exponential growing entropy of the entire system. 
+
 
 [^1]: [Twitter, Inc. - Wikipedia](https://en.wikipedia.org/wiki/Twitter,_Inc.#:~:text=Revue%20was%20a%20service%20which,user%20data%20would%20be%20deleted.)
