@@ -5,9 +5,9 @@ tags:
 ---
 Recently I read a article in Hacker News titled [Why Blog If Nobody Reads It? | Andy's Blog](https://andysblog.uk/why-blog-if-nobody-reads-it/) which discussed reasons why we still blogging even though nobody reads. The comment section of HN is really interesting btw[^1].
 
-It reminds me that a few years ago, I wanted to start my own blog, but it was more like a dairy instead of a blog, and I gave up in the end. I also tried writing newsletters called Revue as a form of blogging, but in 2023, this platform was shutdown[^2]. Medium and Notion are also good platforms of blogging, but they both have a fatal problem: I don't own my posts in my own computer, which means, once these platforms are down or limited[^3], I am no able to retrieve by data. Eventually, I decided to use Obsidian to write my blog and GitHub Pages to host it[^4], ensuring data are stored locally and securely.
+It reminds me that a few years ago, I wanted to start my own blog, but it was more like a dairy instead of a blog, and I gave up in the end. I also tried writing newsletters called Revue as a form of blogging, but in 2023, this platform was shutdown[^2]. Medium and Notion are also good platforms of blogging, but they both have a fatal problem: I don't own my posts in my own computer, which means, once these platforms are down or limited[^3], I am no able to retrieve by data. In the end, Obsidian became the tool where I write my blog and I host it in GitHub Pages[^4], thus, data are stored locally and securely.
 
-Back to the article, probably nobody reads my blog, but I insist start writing it, the reason behind is that I wanted to keep my mind clear, just as the blog says:
+Back to the article, probably nobody reads my blog, but I insist writing it, the reason behind is I wanted to keep my mind clear, just as the blog says:
 
 >Blogging forces clarity. It makes you structure your thoughts, sharpen your perspective. You stop writing fluff because — let’s be honest — you’re writing for yourself. And if you can’t keep yourself interested, nobody else stands a chance.
 
