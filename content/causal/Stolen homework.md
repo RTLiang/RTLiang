@@ -1,6 +1,6 @@
 ---
 title: Stolen Homework
-draft: false
+draft: true
 tags:
 ---
  This post documents how I discovered my homework got stolen. It covers investigation and anti-investigation. This post includes many images as support material, if you are browsing with desktop, feel free to click `Table of Contents` section for quick jump.
@@ -35,7 +35,9 @@ There was only one way to upload a file and share to a person at the same time: 
 More evidence were shown as I investigated, browser history, for example, after sending the email, he searched his email in the search bar to find that email, and deleted. The traffic log also showed he used Gmail at that time.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/6e5834387f7a5399b4143924595a3562462.png)
 
-
+# 6:30 PM, 23 APR 2024
+I installed Windrecorder[^2].
 
 
 [^1]: [Send attachments with your Gmail message - Computer - Gmail Help](https://support.google.com/mail/answer/6584#zippy=%2Cattachment-size-limit)
+[^2]: [My First PR](My%20First%20PR.md)
