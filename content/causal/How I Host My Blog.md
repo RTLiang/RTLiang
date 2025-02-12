@@ -58,14 +58,18 @@ eg:
 1. create a google analytics account
 2. set up a data stream
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/3b3c8157da7d331b92f85a6046a79d2a291.png)
-3. copy `G-XXXXXXXXXX` to `quartz.config.ts`
+1. copy `G-XXXXXXXXXX` to `quartz.config.ts` and sync the code using
+```shell
+npx quartz sync
+```
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/3e86bcacf093e1d0e4babcbadc528704537.png)
-
+2. Test installation
+![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/b86c531e550c8ab3f1d4680079e1516f555.png)
 
 
 
 ***
 ## Known issues
-4. obsidian takes centuries to load (until the official `sync` plugin is on)
+3. obsidian takes centuries to load (until the official `sync` plugin is on)
 	![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/af1309522b6b0e96ed6d1bd6cd6671d7.png)
 
