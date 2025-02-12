@@ -63,7 +63,7 @@ Viewers in certain countires/regions may not able to access GitHub Pages, hostin
 2. Set up a data stream.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/3b3c8157da7d331b92f85a6046a79d2a291.png)
 
-1. Copy `G-XXXXXXXXXX` to `quartz.config.ts` and sync the code using
+1. Copy Measurement ID (`G-XXXXXXXXXX`) to `quartz.config.ts` and sync the code using
  ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/e4ea7ddced18d3073bbd2cdaba05e2b6235.png)
 ```shell
 npx quartz sync
@@ -76,7 +76,7 @@ npx quartz sync
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/d3d2bdd5cae7e46334c915fc5dded399324.png)
 
 ### (Optional) Setting up Google Analytics for Multiple Sites
-If you are hosting your blog on multiple platforms(e.g. GitHub Pages and Cloudflare Pages), you may need to track multiple domains with measurement ID.
+If you are hosting your blog on multiple platforms(e.g. GitHub Pages and Cloudflare Pages), you may need to track multiple domains with one Measurement ID.
 
 1. Go to `Web stream details` -> `Configure tag settings`.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/5f1447947560c3c0f58d76b1bbcf461d997.png)
@@ -90,7 +90,7 @@ If you are hosting your blog on multiple platforms(e.g. GitHub Pages and Cloudfl
 *sensitive info is masked*
 
 ### (Optional) Filtering different sites in Google Analytics
-Once you setup one measurement ID with multiple sites, it is important to filter different sites to analyze traffic. The following tutorial shows how to do it.
+Once you setup one Measurement ID with multiple sites, it is important to filter different sites to analyze traffic. The following tutorial shows how to do it.
 
 1. Go to Google Analytics `Reports` page and click `Add comparison`.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/d61bc10c9fc0aec37355326fa6fca8e4642.png)
