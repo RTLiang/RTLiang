@@ -24,7 +24,7 @@ I shuffled a song from one of my favorite musician, *"I can still create somethi
 [^1]: [Why blog if nobody reads it? | Hacker News](https://news.ycombinator.com/item?id=42992159)
 [^2]: [Twitter, Inc. - Wikipedia](https://en.wikipedia.org/wiki/Twitter,_Inc.#:~:text=Revue%20was%20a%20service%20which,user%20data%20would%20be%20deleted.)
 [^3]: [Restrictions for customers based in Russia – Notion Help Center](https://www.notion.com/help/restrictions-for-customers-based-in-russia)
-[^4]: [How I Host My Blog](How%20I%20Host%20My%20Blog.md)
+[^4]: [How I Host My Blog](../kinda%20hardcore/How%20I%20Host%20My%20Blog.md)
 [^5]: I also deployed it into Cloudflare Pages: [rtliang.pages.dev](https://rtliang.pages.dev/)
 [^6]: [**(Chinese)** 人工智能与人类终局](https://youtu.be/5ieOxxXcl8U?t=1604)
 [^7]: [not too late ♫ - YouTube](https://www.youtube.com/watch?v=Rrghzk10t9o)
