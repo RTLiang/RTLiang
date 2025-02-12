@@ -5,17 +5,17 @@ tags:
   - dev
 date: 2025-02-11
 ---
-this is a simple collection of resources that I use for hosting the blog
+This is a simple collection of resources that I use for hosting the blog.
 
 ## 1. Host with Quartz
-**refer to [How to publish Obsidian notes with Quartz on GitHub Pages - Fork My Brain](https://notes.nicolevanderhoeven.com/How+to+publish+Obsidian+notes+with+Quartz+on+GitHub+Pages#How%20to%20publish%20Obsidian%20notes%20with%20Quartz%20on%20GitHub%20Pages)**
+**refer to [How to publish Obsidian notes with Quartz on GitHub Pages - Fork My Brain](https://notes.nicolevanderhoeven.com/How+to+publish+Obsidian+notes+with+Quartz+on+GitHub+Pages#How%20to%20publish%20Obsidian%20notes%20with%20Quartz%20on%20GitHub%20Pages)**.
 ### Link(s) may helpful
 [Quartz Official Document](https://quartz.jzhao.xyz/)
 
 ***
 
 ## 2. Image uploading using Cloudflare R2
-**refer to [使用Cloudflare R2 + PicGo实现免费图床 - Indie Hacker Tool (Chinese)](https://www.indiehackertool.com/blog/cloudflare-r2-picgo)** 
+**refer to [使用Cloudflare R2 + PicGo实现免费图床 - Indie Hacker Tool (Chinese)](https://www.indiehackertool.com/blog/cloudflare-r2-picgo)** .
 ### Link(s) may helpful
 [Manually install PicGo Plugins when plugin store can not load **(Chinese)**](https://github.com/Molunerfinn/PicGo/issues/222#issuecomment-699451233)
 
@@ -51,25 +51,36 @@ eg:
 
 ***
 ## 4. Host in Cloudflare Pages
-**refer to [Hosting](https://quartz.jzhao.xyz/hosting#cloudflare-pages)**
+**refer to [Quartz: Hosting](https://quartz.jzhao.xyz/hosting#cloudflare-pages)**.
 
 ***
 ## 5. Add Google Analytics
-1. create a google analytics account
-2. set up a data stream
+1. create a Google Analytics account.
+
+2. set up a data stream.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/3b3c8157da7d331b92f85a6046a79d2a291.png)
-1. copy `G-XXXXXXXXXX` to `quartz.config.ts` and sync the code using
+
+3. copy `G-XXXXXXXXXX` to `quartz.config.ts` and sync the code using
+ ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/e4ea7ddced18d3073bbd2cdaba05e2b6235.png)
 ```shell
 npx quartz sync
 ```
-![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/3e86bcacf093e1d0e4babcbadc528704537.png)
-2. Test installation
+
+4. Test installation.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/b86c531e550c8ab3f1d4680079e1516f555.png)
 
+5. If everything goes well, a checkmark shows in the bottom, and you are good to go.
+![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/d3d2bdd5cae7e46334c915fc5dded399324.png)
 
+### Link(s) may helpful
+[Quartz: Configuration](https://quartz.jzhao.xyz/configuration#general-configuration)
+
+[Google Analytics](https://analytics.google.com/)
+
+[博客接入 Google Analytics | Echo Blog **(Chinese)**](https://houbb.github.io/2022/10/04/seo-google-analysis)
 
 ***
 ## Known issues
-3. obsidian takes centuries to load (until the official `sync` plugin is on)
+6. obsidian takes centuries to load (until the official `sync` plugin is on)
 	![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/af1309522b6b0e96ed6d1bd6cd6671d7.png)
 
