@@ -97,7 +97,7 @@ Once you setup one measurement ID with multiple sites, it is important to filter
 1. In `Apply a comparison` page click `Create new` to create a new comparison.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/b7d23315ba7efffd36c74c72ce05c5bc604.png)
 
-2. Select `Hostname` in `Dimension` section, feel free to choose `Match Type`(for simplicity, `contains` is a good option since you only need to enter `github` if you are using GitHub Pages, instead of `yourusername.github.io`), and enter your domain(or a part of), and click `save` (`apply`) is also okay but you are not able to save it as a preset, you need apply a comparison again next time.
+1. Select `Hostname` in `Dimension` section, feel free to choose `Match Type`(for simplicity, `contains` is a good option since you only need to enter `github` if you are using GitHub Pages, instead of `yourusername.github.io`), and enter your domain(or a part of), and click `save` (`apply` is also okay but you are not able to save it as a preset, you need apply a comparison again next time).
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/f2eb86dc438062f425f7d12ec939264a601.png)
 
 > [!info]
@@ -105,13 +105,13 @@ Once you setup one measurement ID with multiple sites, it is important to filter
 > 
 > *Match types are case sensitive, and regex is limited to 250 characters. To choose from a list of available dimension values, select "exactly matches".*
 > 
-> since `hostname` is not from a list, we don't have to select `exactly matches`.
+> Since `hostname` is not from a list, we don't have to select `exactly matches`.
 
 
-3. Name this comparison and `Confirm`.
+2. Name this comparison and `Confirm`.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/46a29c1a2d0d90e8eaba116a2ecc48f3096.png)
 
-4. Now the newly created comparison is created and enabled, you can create more comparisons and enable/disable them in `Add comparison` section.
+3. Now the newly created comparison is created and enabled, you can create more comparisons and enable/disable them in `Add comparison` section.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/617df2fc7ff9cffd3d1fc809a2e4a346292.png)
 
 
@@ -130,6 +130,6 @@ Once you setup one measurement ID with multiple sites, it is important to filter
 
 ***
 ## Known issues
-1. obsidian takes centuries to load (until the official `sync` plugin is on)
+4. obsidian takes centuries to load (until the official `sync` plugin is on)
 	![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/af1309522b6b0e96ed6d1bd6cd6671d7.png)
 
