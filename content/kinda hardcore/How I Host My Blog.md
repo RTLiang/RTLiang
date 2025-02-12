@@ -14,7 +14,7 @@ This is a simple collection of resources that I use for hosting the blog.
 
 ***
 
-## 2. Image uploading using Cloudflare R2
+## 2. Image Uploading using Cloudflare R2
 **Please refer to [(Chinese) 使用Cloudflare R2 + PicGo实现免费图床 - Indie Hacker Tool ](https://www.indiehackertool.com/blog/cloudflare-r2-picgo).**
 ### Link(s) may helpful
 [**(Chinese)** Manually install PicGo Plugins when plugin store can not load ](https://github.com/Molunerfinn/PicGo/issues/222#issuecomment-699451233)
@@ -51,7 +51,7 @@ For example:
 
 ***
 ## 4. Hosting in Cloudflare Pages
-Viewers in certain countires/regoins may not able to access GitHub Pages, hosting a mirror site in Cloudflare Pages may solve the problem.
+Viewers in certain countires/regions may not able to access GitHub Pages, hosting a mirror site in Cloudflare Pages may solve the problem.
 
 **Please refer to [Quartz: Hosting](https://quartz.jzhao.xyz/hosting#cloudflare-pages).**
 
