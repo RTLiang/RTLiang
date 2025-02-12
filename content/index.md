@@ -9,7 +9,7 @@ If you are new here, check out these posts:
 
 [Hello World](Hello%20World.md)
 
-
+[How I Host My Blog](How%20I%20Host%20My%20Blog.md)
 ***
 You can also find me here:
 

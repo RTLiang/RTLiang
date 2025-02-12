@@ -55,6 +55,7 @@ eg:
 
 ***
 ## 5. Add Google Analytics
+### Setup Google Analytics for One Site
 1. create a Google Analytics account.
 
 2. set up a data stream.
@@ -72,6 +73,20 @@ npx quartz sync
 5. If everything goes well, a checkmark shows in the bottom, and you are good to go.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/d3d2bdd5cae7e46334c915fc5dded399324.png)
 
+### (Optional) Setup Google Analytics for Multiple Sites
+If you are hosting your blog on multiple platforms(e.g. GitHub Pages and Cloudflare Pages), you may need to track multiple domains
+
+1. go to `Web stream details` -> `Configure tag settings`
+![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/5f1447947560c3c0f58d76b1bbcf461d997.png)
+
+2. go to `configure your domains`
+![Screenshot 2025-02-12 155522.jpg](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/16d63b109ed5518652aa1c10680db918850.jpg)
+*sensitive info is masked*
+
+3. add domain(s) in  `Cross-domain Linking Configuration` and save
+![Screenshot 2025-02-12 155522.jpg](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/0ca6d57cfd1c5a49792bd1208298c91b117.jpg)
+*sensitive info is masked*
+
 ### Link(s) may helpful
 [Quartz: Configuration](https://quartz.jzhao.xyz/configuration#general-configuration)
 
@@ -79,8 +94,10 @@ npx quartz sync
 
 [博客接入 Google Analytics | Echo Blog **(Chinese)**](https://houbb.github.io/2022/10/04/seo-google-analysis)
 
+[Reddit: One GA4 for multiple websites : r/GoogleAnalytics](https://www.reddit.com/r/GoogleAnalytics/comments/11gw8rm/one_ga4_for_multiple_websites/)
+
 ***
 ## Known issues
-6. obsidian takes centuries to load (until the official `sync` plugin is on)
+1. obsidian takes centuries to load (until the official `sync` plugin is on)
 	![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/af1309522b6b0e96ed6d1bd6cd6671d7.png)
 
