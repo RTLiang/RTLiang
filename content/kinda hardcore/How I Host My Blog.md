@@ -54,7 +54,7 @@ For example:
 **Please refer to [Quartz: Hosting](https://quartz.jzhao.xyz/hosting#cloudflare-pages).**
 
 ***
-## 5. Adding Google Analytics
+## 5. Setting up Google Analytics
 ### Setting up Google Analytics for One Site
 1. Create a Google Analytics account.
 
