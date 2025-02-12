@@ -22,7 +22,7 @@ This is a simple collection of resources that I use for hosting the blog.
 [**(Chinese)** GitHub repo of picgo-plugin-s3 ](https://github.com/wayjam/picgo-plugin-s3)
 
 ***
-## 3. Auto redirect
+## 3. Auto Redirect
 When building GitHub Pages with Quartz, the default link is `https://yourusername.github.io/my-notes`, what we want is `https://yourusername.github.io`.
 
 What you need is setting up a redirect page in `https://yourusername.github.io`, redirect the request to `https://yourusername.github.io/my-notes`.
