@@ -1,7 +1,8 @@
 ---
 title: Hello World
 draft: false
-tags:
+tags: 
+date: 2025-02-11
 ---
 Recently I read a article in Hacker News titled [Why Blog If Nobody Reads It? | Andy's Blog](https://andysblog.uk/why-blog-if-nobody-reads-it/) which discussed reasons why we still blogging even though nobody reads. The comment section of HN is really interesting btw[^1].
 
