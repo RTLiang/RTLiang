@@ -14,5 +14,3 @@ You can also find me here:
 
 [Github](https://github.com/RTLiang)
 
-[Reddit](https://www.reddit.com/user/rtliang/)
-
