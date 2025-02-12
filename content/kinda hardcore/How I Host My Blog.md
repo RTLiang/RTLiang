@@ -51,7 +51,7 @@ For example:
 
 ***
 ## 4. Hosting in Cloudflare Pages
-Since GitHub Pages may be unaccesible in some countires/regions, Hosting a mirror site in Cloudflare Pages may resolve the problem.
+Since GitHub Pages may be unaccesible in some countires/regions, hosting a mirror site in Cloudflare Pages may resolve the problem.
 
 **Please refer to [Quartz: Hosting](https://quartz.jzhao.xyz/hosting#cloudflare-pages).**
 
