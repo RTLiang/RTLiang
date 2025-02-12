@@ -13,5 +13,5 @@ If you are new here, check out these posts:
 ***
 You can also find me here:
 
-[Github](https://github.com/RTLiang)
+[GitHub](https://github.com/RTLiang)
 
