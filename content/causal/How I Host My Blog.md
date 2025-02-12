@@ -15,11 +15,11 @@ This is a simple collection of resources that I use for hosting the blog.
 ***
 
 ## 2. Image uploading using Cloudflare R2
-**refer to [使用Cloudflare R2 + PicGo实现免费图床 - Indie Hacker Tool (Chinese)](https://www.indiehackertool.com/blog/cloudflare-r2-picgo)** .
+**refer to [(Chinese) 使用Cloudflare R2 + PicGo实现免费图床 - Indie Hacker Tool ](https://www.indiehackertool.com/blog/cloudflare-r2-picgo)** .
 ### Link(s) may helpful
-[Manually install PicGo Plugins when plugin store can not load **(Chinese)**](https://github.com/Molunerfinn/PicGo/issues/222#issuecomment-699451233)
+[**(Chinese)** Manually install PicGo Plugins when plugin store can not load ](https://github.com/Molunerfinn/PicGo/issues/222#issuecomment-699451233)
 
-[GitHub repo of picgo-plugin-s3 **(Chinese)**](https://github.com/wayjam/picgo-plugin-s3)
+[**(Chinese)** GitHub repo of picgo-plugin-s3 ](https://github.com/wayjam/picgo-plugin-s3)
 
 ***
 ## 3. Auto redirect
@@ -74,27 +74,59 @@ npx quartz sync
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/d3d2bdd5cae7e46334c915fc5dded399324.png)
 
 ### (Optional) Setup Google Analytics for Multiple Sites
-If you are hosting your blog on multiple platforms(e.g. GitHub Pages and Cloudflare Pages), you may need to track multiple domains
+If you are hosting your blog on multiple platforms(e.g. GitHub Pages and Cloudflare Pages), you may need to track multiple domains with measurement ID.
 
-1. go to `Web stream details` -> `Configure tag settings`
+1. go to `Web stream details` -> `Configure tag settings`.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/5f1447947560c3c0f58d76b1bbcf461d997.png)
 
-2. go to `configure your domains`
+2. go to `configure your domains`.
 ![Screenshot 2025-02-12 155522.jpg](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/16d63b109ed5518652aa1c10680db918850.jpg)
 *sensitive info is masked*
 
-3. add domain(s) in  `Cross-domain Linking Configuration` and save
+3. add domain(s) in  `Cross-domain Linking Configuration` and save.
 ![Screenshot 2025-02-12 155522.jpg](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/0ca6d57cfd1c5a49792bd1208298c91b117.jpg)
 *sensitive info is masked*
+
+### (Optional) filter different sites in Google Analytics homepage
+Once you setup one measurement ID with multiple sites, it is important to filter different sites to analyze traffic, following tutorial shows how to do it.
+
+1. Go to Google Analytics `Reports` page and click `Add comparison`.
+![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/d61bc10c9fc0aec37355326fa6fca8e4642.png)
+*sensitive info is masked*
+
+1. In `Apply a comparison` page click `Create new` to create a new comparison.
+![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/b7d23315ba7efffd36c74c72ce05c5bc604.png)
+
+2. Select `Hostname` in `Dimension` section, feel free to choose `Match Type`(for simplicity, `contains` is a good option since you only need to enter `github` if you are using GitHub Pages, instead of `yourusername.github.io`), and enter your domain(or a part of), and click `save` (`apply`) is also okay but you are not able to save it as a preset, you need apply a comparison again next time.
+![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/f2eb86dc438062f425f7d12ec939264a601.png)
+
+> [!info]
+> The question mark says:
+> 
+> *Match types are case sensitive, and regex is limited to 250 characters. To choose from a list of available dimension values, select "exactly matches".*
+> 
+> since `hostname` is not from a list, we don't have to select `exactly matches`.
+
+
+3. Name this comparison and `Confirm`.
+![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/46a29c1a2d0d90e8eaba116a2ecc48f3096.png)
+
+4. Now the newly created comparison is created and enabled, you can create more comparisons and enable/disable them in `Add comparison` section.
+![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/617df2fc7ff9cffd3d1fc809a2e4a346292.png)
+
 
 ### Link(s) may helpful
 [Quartz: Configuration](https://quartz.jzhao.xyz/configuration#general-configuration)
 
 [Google Analytics](https://analytics.google.com/)
 
-[博客接入 Google Analytics | Echo Blog **(Chinese)**](https://houbb.github.io/2022/10/04/seo-google-analysis)
+[**(Chinese)** 博客接入 Google Analytics | Echo Blog ](https://houbb.github.io/2022/10/04/seo-google-analysis)
 
 [Reddit: One GA4 for multiple websites : r/GoogleAnalytics](https://www.reddit.com/r/GoogleAnalytics/comments/11gw8rm/one_ga4_for_multiple_websites/)
+
+[[GA4] Apply comparisons to reports - Analytics Help](https://support.google.com/analytics/answer/9269518)
+
+[[GA4] Apply filters to detail reports - Analytics Help](https://support.google.com/analytics/answer/11377859)
 
 ***
 ## Known issues
