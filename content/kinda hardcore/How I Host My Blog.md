@@ -130,6 +130,6 @@ Once you setup one measurement ID with multiple sites, it is important to filter
 
 ***
 ## Known issues
-6. obsidian takes centuries to load (until the official `sync` plugin is on)
+- obsidian takes centuries to load (until the official `sync` plugin is on)
 	![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/af1309522b6b0e96ed6d1bd6cd6671d7.png)
 
