@@ -1,6 +1,6 @@
 ---
 title: Stolen Homework
-draft: true
+draft: false
 tags:
 ---
  This post documents how I discovered my homework got stolen. It covers investigation and anti-investigation. This post includes many images as support material, if you are browsing with desktop, feel free to click `Table of Contents` section for quick jump.
