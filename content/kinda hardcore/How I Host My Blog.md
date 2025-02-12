@@ -8,14 +8,14 @@ date: 2025-02-11
 This is a simple collection of resources that I use for hosting the blog.
 
 ## 1. Hosting with Quartz
-**refer to [How to publish Obsidian notes with Quartz on GitHub Pages - Fork My Brain](https://notes.nicolevanderhoeven.com/How+to+publish+Obsidian+notes+with+Quartz+on+GitHub+Pages#How%20to%20publish%20Obsidian%20notes%20with%20Quartz%20on%20GitHub%20Pages)**.
+**Please refer to [How to publish Obsidian notes with Quartz on GitHub Pages - Fork My Brain](https://notes.nicolevanderhoeven.com/How+to+publish+Obsidian+notes+with+Quartz+on+GitHub+Pages#How%20to%20publish%20Obsidian%20notes%20with%20Quartz%20on%20GitHub%20Pages).**
 ### Link(s) may helpful
 [Quartz Official Document](https://quartz.jzhao.xyz/)
 
 ***
 
 ## 2. Image uploading using Cloudflare R2
-**refer to [(Chinese) 使用Cloudflare R2 + PicGo实现免费图床 - Indie Hacker Tool ](https://www.indiehackertool.com/blog/cloudflare-r2-picgo)** .
+**Please refer to [(Chinese) 使用Cloudflare R2 + PicGo实现免费图床 - Indie Hacker Tool ](https://www.indiehackertool.com/blog/cloudflare-r2-picgo).**
 ### Link(s) may helpful
 [**(Chinese)** Manually install PicGo Plugins when plugin store can not load ](https://github.com/Molunerfinn/PicGo/issues/222#issuecomment-699451233)
 
@@ -25,9 +25,9 @@ This is a simple collection of resources that I use for hosting the blog.
 ## 3. Auto redirect
 When building GitHub Pages with Quartz, the default link is `https://yourusername.github.io/my-notes`, what we want is `https://yourusername.github.io`.
 
-What you need is setting up a redirect page in `https://yourusername.github.io`, redirect to `https://yourusername.github.io/my-notes`
+What you need is setting up a redirect page in `https://yourusername.github.io`, redirect the request to `https://yourusername.github.io/my-notes`.
 
-eg:
+For example:
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -51,39 +51,39 @@ eg:
 
 ***
 ## 4. Hosting in Cloudflare Pages
-**refer to [Quartz: Hosting](https://quartz.jzhao.xyz/hosting#cloudflare-pages)**.
+**Please refer to [Quartz: Hosting](https://quartz.jzhao.xyz/hosting#cloudflare-pages).**
 
 ***
 ## 5. Adding Google Analytics
 ### Setting up Google Analytics for One Site
-1. create a Google Analytics account.
+1. Create a Google Analytics account.
 
-2. set up a data stream.
+2. Set up a data stream.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/3b3c8157da7d331b92f85a6046a79d2a291.png)
 
-3. copy `G-XXXXXXXXXX` to `quartz.config.ts` and sync the code using
+1. Copy `G-XXXXXXXXXX` to `quartz.config.ts` and sync the code using
  ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/e4ea7ddced18d3073bbd2cdaba05e2b6235.png)
 ```shell
 npx quartz sync
 ```
 
-4. Test installation.
+2. Test installation.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/b86c531e550c8ab3f1d4680079e1516f555.png)
 
-5. If everything goes well, a checkmark shows in the bottom, and you are good to go.
+3. If everything goes well, a checkmark shows in the bottom, and you are good to go.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/d3d2bdd5cae7e46334c915fc5dded399324.png)
 
 ### (Optional) Setting up Google Analytics for Multiple Sites
 If you are hosting your blog on multiple platforms(e.g. GitHub Pages and Cloudflare Pages), you may need to track multiple domains with measurement ID.
 
-1. go to `Web stream details` -> `Configure tag settings`.
+1. Go to `Web stream details` -> `Configure tag settings`.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/5f1447947560c3c0f58d76b1bbcf461d997.png)
 
-2. go to `configure your domains`.
+2. Go to `configure your domains`.
 ![Screenshot 2025-02-12 155522.jpg](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/16d63b109ed5518652aa1c10680db918850.jpg)
 *sensitive info is masked*
 
-3. add domain(s) in  `Cross-domain Linking Configuration` and save.
+3. Add domain(s) in  `Cross-domain Linking Configuration` and save.
 ![Screenshot 2025-02-12 155522.jpg](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/0ca6d57cfd1c5a49792bd1208298c91b117.jpg)
 *sensitive info is masked*
 
@@ -97,7 +97,7 @@ Once you setup one measurement ID with multiple sites, it is important to filter
 2. In `Apply a comparison` page, click `Create new` to create a new comparison.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/b7d23315ba7efffd36c74c72ce05c5bc604.png)
 
-3. Select `Hostname` in `Dimension` section, feel free to choose `Match Type`(for simplicity, `contains` is a good option since you only need to enter `github` if you are using GitHub Pages, instead of `yourusername.github.io`), and enter your domain(or a part of), and click `Save` (`Apply` is also okay but you are not able to save it as a preset, you need to apply a comparison again next time).
+3. Select `Hostname` in `Dimension` section, feel free to choose `Match Type`(for simplicity, `contains` is a good option since you only need to enter `github` if you are using GitHub Pages, instead of `yourusername.github.io`), and enter your domain(or a part of), and click `Save` (`Apply` is also okay but you are not able to save it as a preset, so you need to apply a comparison again next time).
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/f2eb86dc438062f425f7d12ec939264a601.png)
 
 > [!info]
@@ -108,10 +108,10 @@ Once you setup one measurement ID with multiple sites, it is important to filter
 > Since domain is not case sensitive, you need to enter it in **lowercase** and `hostname` is not from a list, we don't have to select `exactly matches`.
 
 
-4. Name this comparison and `Confirm`.
+4. Name this comparison as whatever you like and `Confirm`.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/46a29c1a2d0d90e8eaba116a2ecc48f3096.png)
 
-5. Now the newly created comparison is created and enabled, you can create more comparisons and enable/disable them in `Add comparison` section.
+5. Now we have created and enabled a comparison, you can create more comparisons and enable/disable them in `Add comparison` section as needed.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/617df2fc7ff9cffd3d1fc809a2e4a346292.png)
 
 
