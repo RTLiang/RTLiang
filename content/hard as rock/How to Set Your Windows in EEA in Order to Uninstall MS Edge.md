@@ -18,6 +18,7 @@ Execute the following command in **CMD**(Admin) to show **UCPD running status**:
 sc query ucpd
 ```
 If you see **`STATE              : 4  RUNNING`**, then UCPD is running.
+
 For example:
 ```cmd
 C:\>sc query ucpd
@@ -36,7 +37,8 @@ Execute the following command in **CMD**(Admin) to show **service running status
 ```cmd
 sc qc ucpd
 ```
-If you see **`START_TYPE         : 1   SYSTEM_START`**, then UCPD is triggered at login
+If you see **`START_TYPE         : 1   SYSTEM_START`**, then UCPD is triggered at login.
+
 For example:
 ```cmd
 C:\>sc qc ucpd
@@ -67,13 +69,13 @@ Search `Task Scheduler` and navigate to `\Microsoft\Windows\AppxDeploymentClient
 Right click it and select `Properties`.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/4496c9d447ec74de22369af054a7cdff115.png)
 
-In properties section, click `Condition`, uncheck `Start the task only if the computer is idle for:` and click OK.
+In properties section, click `Conditions`, uncheck `Start the task only if the computer is idle for:` and click OK.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/1f3ad9fbe5c6b889a86bf912ab29f07e818.png)
 
 Right click again and Disable it.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/ed2cbbc4852ac6ff2f8aee56d70c6443395.png)
 
-Now We've disabled the TaskPlanner job, let's disable UCPD now.
+Now We've disabled the TaskPlaner job, let's disable UCPD now.
 
 #### b. Disable UCPD
 Execute the following command in **CMD**(Admin) to **disable UCPD**:
@@ -113,9 +115,9 @@ Execute `sc query ucpd` and it turns out, ucpd is still running, the next step i
 >
 >The requested control is not valid for this service.
 > ```
-> So we have to restart Windows
+> So we have to restart Windows.
 
-After rebooting, ucpd is `STOPPED`
+After rebooting, ucpd is `STOPPED`.
 ```cmd
 C:\>sc query ucpd
 
@@ -139,8 +141,9 @@ For example:
 |Country|two char code|GEOID(Hex)|GEOID(decimal)|
 |---|---|---|---|
 |Ireland|IE|0x44|68|
-> [!tip] Ireland is the only country in EEA use English as official language[^6]
+> [!tip] Ireland is the only country in EEA use English as official language
 
+[^6]
 ### 2. Edit Registry [^7]
 Edit `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Control Panel\DeviceRegion\DeviceRegion` to your selected GEOID. 
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/5ab4accfc558129e0855c0d58aa98e0b954.png)
@@ -180,9 +183,9 @@ You are able to uninstall MS Edge(that's what we want!).
 
 
 ## (IV) Change UCPD Back
-Now we've successfully tricked Windows as if we are physically in EEA countries, the last step is change the UCPD settings back(you don't want your default apps being hijacked like MS Edge right?). What we need to do is doing (I) reversely.
+Now we've successfully tricked Windows as if we are physically in EEA countries, the last step is change the UCPD settings back(you don't want your default apps being hijacked like MS Edge, don't you?). What we need to do is doing (I) reversely.
 
-Enable UCPD TaskPlanner job
+Enable UCPD TaskPlaner job.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/cc1e45f62d5e257b649148973ce7df7e447.png)
 *sensitive info is masked*
 
@@ -195,7 +198,7 @@ It shows:
 C:\>sc config UCPD start=system
 [SC] ChangeServiceConfig SUCCESS
 ```
-Now UCPD is stopped if we check it using `sc query ucpd`
+Now UCPD is stopped if we check it using `sc query ucpd`.
 ```cmd
 C:\>sc query ucpd
 
@@ -211,7 +214,7 @@ We only need to start it using:
 ```cmd
 sc start ucpd
 ```
-Thus, ucpd is back
+Now ucpd is back.
 ```cmd
 C:\>sc start ucpd
 
@@ -229,6 +232,7 @@ SERVICE_NAME: ucpd
 
 *reboot seems work as well but I haven't tried it.*
 
+
 ## Links may useful
 Last but not least, there are a few links you may refer to, which may give a helping hand.
 
@@ -238,7 +242,9 @@ Last but not least, there are a few links you may refer to, which may give a hel
 
 If you want to know more about UCPD itself, you can go to [^4] .
 
-***
+
+
+
 [^1]:[The Digital Markets Act](https://digital-markets-act.ec.europa.eu/index_en)
 [^2]:[EU, EEA, EFTA and Schengen Area countries | European Union | Government.nl](https://www.government.nl/topics/european-union/eu-eea-efta-and-schengen-area-countries)
 [^3]: [Microsoft implements DMA compliance measures - EU Policy Blog](https://blogs.microsoft.com/eupolicy/2024/03/07/microsoft-dma-compliance-windows-linkedin/)
