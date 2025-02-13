@@ -3,7 +3,7 @@ title: How to Set Your Windows in EEA in Order to Uninstall MS Edge
 draft: true
 tags:
   - dev
-date:
+date: 2025-02-13
 ---
 
  Due to European Union's Digital Markets Act (DMA)[^1], users in European Economic Area (EEA)[^2] are able to uninstall the notorious Microsoft Edge in their Windows Devices[^3]. If you are not in EEA, this tutorial may help you configure your Windows in EEA and uninstall MS Edge.
