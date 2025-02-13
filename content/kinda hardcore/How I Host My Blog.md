@@ -81,7 +81,7 @@ If you are hosting your blog on multiple platforms(e.g. GitHub Pages and Cloudfl
 1. Go to `Web stream details` -> `Configure tag settings`.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/5f1447947560c3c0f58d76b1bbcf461d997.png)
 
-2. Go to `configure your domains`.
+2. Go to `Configure your domains`.
 ![Screenshot 2025-02-12 155522.jpg](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/16d63b109ed5518652aa1c10680db918850.jpg)
 *sensitive info is masked*
 
