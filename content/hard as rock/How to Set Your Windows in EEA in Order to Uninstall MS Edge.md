@@ -183,7 +183,7 @@ You are able to uninstall MS Edge(that's what we want!).
 
 
 ## (IV) Change UCPD Back
-Now we've successfully tricked Windows as if we are physically in EEA countries, the last step is change the UCPD settings back(you don't want your default apps being hijacked like MS Edge, don't you?). What we need to do is doing (I) reversely.
+Now we've successfully tricked Windows as if we are physically in EEA countries, the last step is change the UCPD settings back(you don't want your default apps being hijacked like MS Edge and some sensitive registry values being edited by some malwares, don't you?). What we need to do is doing (I) reversely.
 
 Enable UCPD TaskPlaner job.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/cc1e45f62d5e257b649148973ce7df7e447.png)
