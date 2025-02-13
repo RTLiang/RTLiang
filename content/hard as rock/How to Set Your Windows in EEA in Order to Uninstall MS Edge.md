@@ -141,7 +141,7 @@ For example:
 |Country|two char code|GEOID(Hex)|GEOID(decimal)|
 |---|---|---|---|
 |Ireland|IE|0x44|68|
-> [!tip] Ireland is the only country in EEA use English as official language
+> [!tip] Ireland is the only country in EEA use English as its official language
 
 [^6]
 ### 2. Edit Registry [^7]
@@ -172,7 +172,7 @@ If `User Region` and `Default Region` are different and you are sure you didn't 
 
 ### 2. MS Edge account will be logout
 
-Once you set your Region to EEA, your MS Edge account will be logout and it prompts you to sign in again.
+Once you set your region to EEA, your MS Edge account will be logout and it prompts you to sign in again.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/aa12831796d37f32a17aa5ae4fcd25a6777.png)
 *sensitive info is masked*
 
@@ -198,6 +198,24 @@ It shows:
 C:\>sc config UCPD start=system
 [SC] ChangeServiceConfig SUCCESS
 ```
+And we check this using `sc qc ucpd`
+
+```cmd
+C:\>sc qc ucpd
+[SC] QueryServiceConfig SUCCESS
+
+SERVICE_NAME: ucpd
+        TYPE               : 2  FILE_SYSTEM_DRIVER
+        START_TYPE         : 1   SYSTEM_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : system32\drivers\UCPD.sys
+        LOAD_ORDER_GROUP   : FSFilter Activity Monitor
+        TAG                : 0
+        DISPLAY_NAME       : UCPD
+        DEPENDENCIES       :
+        SERVICE_START_NAME :
+```
+
 Now UCPD is stopped if we check it using `sc query ucpd`.
 ```cmd
 C:\>sc query ucpd
