@@ -65,16 +65,12 @@ Microsoft has stored a TaskPlaner job to reactivate UCPD when it is disabled, so
 Search `Task Scheduler` and navigate to `\Microsoft\Windows\AppxDeploymentClient`, you will see the Status of `UCPD velocity` is Ready.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/a480f618ddd514b30bcde9dd7d6a9a26068.png)
 *sensitive info is masked*
-
 Right click it and select `Properties`.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/4496c9d447ec74de22369af054a7cdff115.png)
-
 In properties section, click `Conditions`, uncheck `Start the task only if the computer is idle for:` and click OK.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/1f3ad9fbe5c6b889a86bf912ab29f07e818.png)
-
 Right click again and Disable it.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/ed2cbbc4852ac6ff2f8aee56d70c6443395.png)
-
 Now We've disabled the TaskPlaner job, let's disable UCPD now.
 
 #### b. Disable UCPD
@@ -141,7 +137,7 @@ For example:
 |Country|two char code|GEOID(Hex)|GEOID(decimal)|
 |---|---|---|---|
 |Ireland|IE|0x44|68|
-> [!tip] Ireland is the only country in EEA use English as its official language
+> [!tip] Ireland is the only country in EEA use English as its official language.
 
 [^6]
 ### 2. Edit Registry [^7]
@@ -152,10 +148,10 @@ Edit `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Control Panel
 Edit `HKEY_USERS\.DEFAULT\Control Panel\International\Geo\Name` to your selected two char code and edit `HKEY_USERS\.DEFAULT\Control Panel\International\Geo\Nation` to GEOID.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/0ddd364b87923bf9e9610b1017b236fa874.png)
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/71caab72fae7fbd4a402f6030cb26fc5421.png)
-Same for `HKEY_CURRENT_USER\Control Panel\International\Geo\Name` and `HKEY_CURRENT_USER\Control Panel\International\Geo\Nation`
+Same for `HKEY_CURRENT_USER\Control Panel\International\Geo\Name` and `HKEY_CURRENT_USER\Control Panel\International\Geo\Nation`.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/f2922c719707da05f57f09fc38934ed2597.png)
 ### 3. Change Country or Region in Settings
-In Windows Settings, `Time & Language > Language & Region`, Change `Country or region` to your selected country
+In Windows Settings, `Time & Language > Language & Region`, Change `Country or region` to your selected country.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/f2f0ecc2ed3e5d4eca9801cb14235d5b355.png)
 *sensitive info is masked*
 
@@ -165,7 +161,7 @@ Then reboot.
 
 ## (III) Check if effects are taken or not
 There are a few ways to check whether we switched the region to EEA.
-### 1. use MSEdgeRedirect
+### 1. Use MSEdgeRedirect
 If anything goes well, your device's `Machine Region`, `Default Region`, `User Region` are all the region you selected, you can check this out with [MSEdgeRedirect](https://github.com/rcmaehl/MSEdgeRedirect).
 If `User Region` and `Default Region` are different and you are sure you didn't miss any step, don't be upset, try to reboot multiple times, they will be same magically.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/dc971cf5f949d3dbad4f7176840a4de0366.png)
