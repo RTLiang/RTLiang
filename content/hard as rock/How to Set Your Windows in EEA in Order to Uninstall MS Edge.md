@@ -1,6 +1,6 @@
 ---
 title: How to Set Your Windows in EEA in Order to Uninstall MS Edge
-draft: true
+draft: false
 tags:
   - dev
 date: 2025-02-13
