@@ -240,9 +240,7 @@ Last but not least, there are a few links you may refer to, which may give a hel
 
 [Revert the Europe EEA Machine Region · Issue #392 · rcmaehl/MSEdgeRedirect](https://github.com/rcmaehl/MSEdgeRedirect/issues/392)
 
-If you want to know more about UCPD itself, you can go to [^4] .
-
-
+If you want to explore more about UCPD itself, you can go to [^4] or simply go to `C:\Windows\System32\IntegratedServicesRegionPolicySet.json` to see other region lock features.
 
 
 [^1]:[The Digital Markets Act](https://digital-markets-act.ec.europa.eu/index_en)
