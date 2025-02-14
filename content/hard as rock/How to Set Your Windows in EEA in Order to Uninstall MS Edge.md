@@ -137,7 +137,7 @@ For example:
 |Country|two char code|GEOID(Hex)|GEOID(decimal)|
 |---|---|---|---|
 |Ireland|IE|0x44|68|
-> [!tip] Ireland is the only country in EEA use English as its official language.
+> [!tip] Fun Fact: Ireland is the only country in EEA use English as its official language.
 
 [^6]
 ### 2. Edit Registry [^7]
