@@ -163,6 +163,13 @@ Then reboot.
 There are a few ways to check whether we switched the region to EEA.
 ### 1. Use MSEdgeRedirect
 If anything goes well, your device's `Machine Region`, `Default Region`, `User Region` are all the region you selected, you can check this out with [MSEdgeRedirect](https://github.com/rcmaehl/MSEdgeRedirect).
+
+Download MSEdgeRedirect from [GitHub](https://github.com/rcmaehl/MSEdgeRedirect), run `MSEdgeRedirect.exe`, read and accept the license.
+![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/75f46a170152f5744410178a8ef7df91558.png)
+
+Select Europe Mode, a UAC window will be shown, click yes.
+![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/28dc84f496d7b3cb7b035a2274c9f3c3021.png)
+
 If `User Region` and `Default Region` are different and you are sure you didn't miss any step, don't be upset, try to reboot multiple times, they will be same magically.
 ![image.png](https://pub-b7259f73aa5840209c979dded8c55365.r2.dev/2025/02/dc971cf5f949d3dbad4f7176840a4de0366.png)
 
