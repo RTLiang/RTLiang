@@ -17,7 +17,7 @@ A video also inspired me to do so[^6]. In short, what I do is to keep lowering t
 ***
 Update: 11 FEB 2025
 
-I shuffled a song from one of my favorite musician, *"I can still create something great and it still not to late"*[^7], yes, I am creating something great. 
+I shuffled a song from one of my favorite musician, *"I can still create something great and it still not to late"*[^7], I am creating something great and making different now. 
 
 
 
