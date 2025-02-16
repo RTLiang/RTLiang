@@ -2,7 +2,7 @@
 title: How I Host My Blog
 draft: false
 tags:
-  - dev
+  - tutorial
 date: 2025-02-11
 ---
 This is a simple collection of resources that I use for hosting the blog.
