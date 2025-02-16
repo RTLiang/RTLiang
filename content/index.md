@@ -21,3 +21,6 @@ You can also find me here:
 [GitHub](https://github.com/RTLiang)
 
 [Mastodon](https://mastodon.social/@rtliang)
+
+
+<a rel="me" href="https://mastodon.social/@rtliang">Mastodon</a>
