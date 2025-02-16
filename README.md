@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-### Check out my blog: [Raydon Liang's Blog](https://rtliang.pages.dev/)
+### Check out my blog: [Raydon Liang's Blog](https://blog.rtliang.top/)
