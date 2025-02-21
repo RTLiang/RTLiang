@@ -17,7 +17,8 @@ Here are some ideas to get you started:
 
 ### Check out my blog: [Raydon Liang's Blog](https://blog.rtliang.top/)
 
-### Check out my Chrome extension(not out yet, still under review):
-[Clean Start](https://chromewebstore.google.com/detail/eldgfmkhmkpahpgeilbiocenljeofnnh)
-
+### Check out my Browser extensions:
 [Bye Bye Duplicates](https://chromewebstore.google.com/detail/kbneiolhijeigpliapbomakbaponmlpb)
+
+[Clean Start (Only available in Edge)](https://microsoftedge.microsoft.com/addons/detail/gggdbfblbobnadcknjlfpebheiebcccm)
+
