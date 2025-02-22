@@ -20,4 +20,6 @@ You can also find me here:
 
 [GitHub](https://github.com/RTLiang)
 
-[Mastodon](https://mastodon.social/@rtliang)
+[YouTube](https://www.youtube.com/channel/UCHBUg82sp00LBrsKdrubcjA)
+
+[Instagram](https://www.instagram.com/liang__rt/)
