@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-### Check out my blog: [Raydon Liang's Blog](https://blog.rtliang.top/)
+### Check out my blog: [Raydon Liang's Blog](https://blog.rtliang.com/)
 
 ### Check out my Browser extensions:
 [Bye Bye Duplicates](https://chromewebstore.google.com/detail/kbneiolhijeigpliapbomakbaponmlpb)
