@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: 'google', tagId: 'G-BZSLQ52HS3' 
     },
     locale: "en-US",
-    baseUrl: "blog.rtliang.top",
+    baseUrl: "blog.rtliang.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
