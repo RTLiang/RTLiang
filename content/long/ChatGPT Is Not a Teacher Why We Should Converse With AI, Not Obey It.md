@@ -9,7 +9,7 @@ This shift reflects a misunderstanding. On the ChatGPT interface itself, a discl
 
 ---
 
-### The Nature of AI: Prediction, Not Understanding
+## The Nature of AI: Prediction, Not Understanding
 
 At their core, all machine learning models — including generative AI systems — operate on prediction. Whether it's image classification or language generation, the fundamental goal is to predict future data points based on prior information. This is true not only for artificial systems but for humans as well. We survive and adapt by learning from patterns, by forecasting outcomes, and by passing knowledge through generations[^2].
 
@@ -19,7 +19,7 @@ Moreover, even their classifications are subject to thresholds[^3]. For instance
 
 ---
 
-### Poem Cloud and the Illusion of Intelligence
+## Poem Cloud and the Illusion of Intelligence
 
 This disconnect between **production** and **understanding** is powerfully illustrated in Liu Cixin’s short story _Poem Cloud_ [^5][^6]. In the story, a superintelligent system is built to generate every possible poem — every conceivable combination of characters in poetic form. Somewhere within this astronomical collection lie poems of great emotional power and literary value. However, the system itself has no comprehension of the words it produces. It does not understand metaphor, rhythm, or emotion. It simply generates.
 
@@ -29,7 +29,7 @@ Thus, when AI systems provide answers, even beautiful or convincing ones, we mus
 
 ---
 
-### Socratic AI, Not Confucian AI
+## Socratic AI, Not Confucian AI
 
 This leads to a more important question: **How should we use AI?**
 
@@ -41,7 +41,7 @@ Instead, AI should be used Socratically — not to deliver truth, but to provoke
 
 ---
 
-### The Role of the User
+## The Role of the User
 
 It is tempting to imagine that AI can "think." It can simulate conversation. It can summarize complex ideas. It can even mimic emotional tone. But it does not and cannot think as humans do. Thought is rooted in consciousness — and while we do not yet fully understand consciousness, we know that machine learning models do not possess it. They do not reflect. They do not create meaning. They **replicate patterns**.
 
@@ -53,7 +53,7 @@ Thus, users must provide that guidance. Users must build the pathway through whi
 
 ---
 
-### Implications for Education and Society
+## Implications for Education and Society
 
 In education, this means that teachers should not be replaced by AI. But teachers can work **with** AI. If a student asks a question beyond the teacher’s immediate knowledge, an AI model can provide a starting point — not a final answer, but a way to open discussion. Even if the AI is partially wrong, the process of questioning its output can itself become a learning experience.
 
@@ -63,13 +63,13 @@ Relying solely on AI outputs without prior knowledge is dangerous. Without a per
 
 ---
 
-### Conclusion
+## Conclusion
 
 Artificial Intelligence is not a teacher in the Confucian sense. It should not be obeyed. Nor is it a philosopher or a scientist. It cannot generate insight in the way Newton once looked at a falling apple and deduced the laws of gravity.
 
 What it can do — and do well — is engage us in thought. When used correctly, it becomes a Socratic tool: not one that recites truth, but one that helps us uncover it ourselves. In dialogue, in questioning, and in reflection, AI becomes valuable.
 
-So, do not treat ChatGPT as a truth engine. Treat it as a mirror — one that reflects your ideas back at you, sharpens your thinking, and helps you uncover what you did not yet realize you already knew.`
+So, do not treat ChatGPT as a truth engine. Treat it as a mirror — one that reflects your ideas back at you, sharpens your thinking, and helps you uncover what you did not yet realize you already knew.
 
 
 
