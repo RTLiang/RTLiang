@@ -3,8 +3,6 @@ title: "ChatGPT Is Not a Teacher: Why We Should Converse With AI, Not Obey It"
 draft: false
 tags:
 ---
-## ChatGPT Is Not a Teacher: Why We Should Converse With AI, Not Obey It
-
 ChatGPT was released over two years ago[^1]. In the early months of its popularity, public opinion was sharply divided. Many universities rushed to ban it, fearing it would erode academic integrity and make students intellectually passive. Ironically, the present trend has reversed: people now cite ChatGPT as an authoritative source, often beginning their arguments with, “ChatGPT said…” — as if its outputs carry indisputable truth.
 
 This shift reflects a misunderstanding. On the ChatGPT interface itself, a disclaimer reads: **“ChatGPT can make mistakes. Check important info.”** Yet despite this, people tend to treat generative AI tools as fact-tellers rather than probabilistic language models. It is essential to recognize that large language models are not designed to be always correct. Nor are they capable of understanding the meaning of the words they generate.
