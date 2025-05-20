@@ -23,7 +23,7 @@ Moreover, even their classifications are subject to thresholds[^3]. For instance
 
 This disconnect between **production** and **understanding** is powerfully illustrated in Liu Cixin’s short story _Poem Cloud_ [^5][^6]. In the story, a superintelligent system is built to generate every possible poem — every conceivable combination of characters in poetic form. Somewhere within this astronomical collection lie poems of great emotional power and literary value. However, the system itself has no comprehension of the words it produces. It does not understand metaphor, rhythm, or emotion. It simply generates.
 
-This is a useful metaphor for how language models operate. They are not conscious. They do not comprehend what they write. Their power lies in output, not insight. Like a monkey randomly typing who happens to produce a Shakespearean sonnet by chance, the achievement lies in statistical inevitability, not understanding.
+This is a useful metaphor for how language models operate. They are not conscious. They do not comprehend what they write. Their power lies in output, not insight. Like a monkey randomly typing who happens to produce a Shakespearean sonnet by chance, the achievement lies in statistical inevitability, not understanding[^12].
 
 Thus, when AI systems provide answers, even beautiful or convincing ones, we must remember: **they do not know what they are saying.** They are not thinkers. They are predictors.
 
@@ -93,4 +93,6 @@ So, do not treat ChatGPT as a truth engine. Treat it as a mirror — one that re
 
 [^10]: [Hallucination (artificial intelligence) - Wikipedia](https://en.wikipedia.org/wiki/Hallucination_\(artificial_intelligence\))
 
-[^11]: [AI literacy - Wikipedia](https://en.wikipedia.org/wiki/AI_literacy
+[^11]: [AI literacy - Wikipedia](https://en.wikipedia.org/wiki/AI_literacy)
+
+[^12]: [Infinite monkey theorem - Wikipedia](https://en.wikipedia.org/wiki/Infinite_monkey_theorem)
