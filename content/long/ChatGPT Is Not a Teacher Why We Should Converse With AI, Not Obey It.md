@@ -2,6 +2,7 @@
 title: "ChatGPT Is Not a Teacher: Why We Should Converse With AI, Not Obey It"
 draft: false
 tags:
+  - essay
 ---
 ChatGPT was released over two years ago[^1]. In the early months of its popularity, public opinion was sharply divided. Many universities rushed to ban it, fearing it would erode academic integrity and make students intellectually passive. Ironically, the present trend has reversed: people now cite ChatGPT as an authoritative source, often beginning their arguments with, “ChatGPT said…” — as if its outputs carry indisputable truth.
 
