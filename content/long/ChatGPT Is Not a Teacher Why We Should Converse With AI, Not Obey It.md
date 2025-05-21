@@ -76,6 +76,7 @@ So, do not treat ChatGPT as a truth engine. Treat it as a mirror — one that re
 
 [Tech Leader Sam Altman Sparks Fierce Debate by Calling AI a Cultural Renaissance Not Industrial Revolution - CTOL Digital Solutions](https://www.ctol.digital/news/sam-altman-ai-renaissance-debate-tech-future/)
 
+[**(Chinese)** 为什么说AI正在迅速拉开人的差距？怎样利用ChatGPT高效学习？AI不能替代人类，但它胜过99%的人际关系｜心理学｜哲学｜ChatGPT｜叙事疗法｜](https://www.youtube.com/watch?v=Q00ABRDePls)
 
 
 
