@@ -1,5 +1,5 @@
 ---
-title: How to publish Obsidian notes with Quartz on GitHub Pages
+title: ChatGPT Is Not a Teacher Why We Should Converse With AI, Not Obey It
 draft: false
 tags:
   - essay
