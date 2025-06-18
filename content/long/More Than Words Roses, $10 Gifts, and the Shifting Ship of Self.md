@@ -41,7 +41,7 @@ Perhaps identity is all these things simultaneously. We are ships sailing throug
 
 ## The Priceless Gift
 
-Consider the ten-dollar gift. From a stranger, it’s mere plastic, disposable. Yet when given by someone whose laughter, tears, and companionship have shaped your life, it transforms into something priceless. Nothing about the object changes; the meaning lies entirely in the context, the invisible threads of relationship, memory, and mutual understanding woven around it.
+Consider a ten-dollar gift. From a stranger, it’s mere plastic, disposable. Yet when given by someone whose laughter, tears, and companionship have shaped your life, it transforms into something priceless. Nothing about the object changes; the meaning lies entirely in the context, the invisible threads of relationship, memory, and mutual understanding woven around it.
 
 Gertrude Stein famously wrote, “A rose is a rose is a rose.” Yet even she knew this simplicity held complexity. The mere utterance of “rose” summons centuries of poetry, fragrance, symbolism, and personal meaning. Words, like roses, resonate beyond their literal definitions, echoing within the chambers of our personal histories.
 

@@ -9,6 +9,7 @@ If you are new here, check out these blogs:
 ## short (less than 3 minutes to read)
 [Hello World](short/Hello%20World.md)
 
+[Scam Inc](short/Scam%20Inc.md)
 
 ## long (essays, tutorials, etc.)
 [How I Host My Blog](long/How%20I%20Host%20My%20Blog.md)
